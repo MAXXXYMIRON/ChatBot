@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Time</name>
+    </assembly>
+    <members>
+        <member name="T:Time.Time">
+            <summary>
+            Класс Time представляет собой время выраенное в часах, минутах, секундах.
+            Имеет четыре конструктора: Стандартый и три специальных.
+            Специальный с одним параметром устанавливает часы.
+            Специальный с двумя параметрами устанавливает часы и минуты.
+            Специальный с тремя параметрами устанавливает часы, минуты и секунды.
+            </summary>
+        </member>
+        <member name="P:Time.Time.Second">
+            <summary>
+            Открытое свойство класса Time
+            Представляет доступ к секундам
+            Допустимые значения от 0 до 59
+            </summary>
+        </member>
+        <member name="P:Time.Time.Minute">
+            <summary>
+            Открытое свойство класса Time
+            Представляет доступ к минутам
+            Допустимые значения от 0 до 59
+            </summary>
+        </member>
+        <member name="P:Time.Time.Hour">
+            <summary>
+            Открытое свойство класса Time
+            Представляет доступ к часам
+            Допустимые значения от 0 до 23
+            </summary>
+        </member>
+        <member name="M:Time.Time.#ctor(System.SByte,System.SByte,System.SByte)">
+            <summary>
+            Открытый констрктор класса Time
+            </summary>
+        </member>
+        <member name="M:Time.Time.op_Addition(Time.Time,Time.Time)">
+            <summary>
+            Открытый оператор класса Time
+            Складывает два экземпляра класса Time по правилаь складывания времени
+            </summary>
+        </member>
+        <member name="M:Time.Time.op_Subtraction(Time.Time,Time.Time)">
+            <summary>
+            Открытый оператор класса Time
+            Вычитает два экземпляра класса Time по правилам вычитания времени
+            </summary>
+        </member>
+        <member name="P:Time.Time.ToHour">
+            <summary>
+            Открытый метод класса Time
+            Переводит текущее время в часы
+            </summary>
+        </member>
+        <member name="P:Time.Time.ToMinute">
+            <summary>
+            Открытый метод класса Time
+            Переводит текущее время в минуты
+            </summary>
+        </member>
+        <member name="P:Time.Time.ToSecond">
+            <summary>
+            Открытый метод класса Time
+            Переводит текущее время в секунды 
+            </summary>
+        </member>
+        <member name="M:Time.Time.ToString">
+            <summary>
+            Переопределенный метод базового класса System.Object 
+            Возвращает состояние класса Time в формате строки
+            </summary>
+        </member>
+        <member name="M:Time.Time.Add_H(System.UInt32)">
+            <summary>
+            Открытый метод класса Time
+            Увеличивает текущее время на h часов
+            </summary>
+        </member>
+        <member name="M:Time.Time.Add_M(System.UInt32)">
+            <summary>
+            Открытый метод класса Time
+            Увеличивает текущее время на m минут
+            </summary>
+        </member>
+        <member name="M:Time.Time.Add_S(System.UInt32)">
+            <summary>
+            Открытый метод класса Time
+            Увеличивает текущее время на s секунд
+            </summary>
+        </member>
+        <member name="M:Time.Time.Sub_H(System.UInt32)">
+            <summary>
+            Открытый метод класса Time
+            Уменьшает текущее время на h часов
+            </summary>
+        </member>
+        <member name="M:Time.Time.Sub_M(System.UInt32)">
+            <summary>
+            Открытый метод класса Time
+            Уменьшает текущее время на m минут
+            </summary>
+        </member>
+        <member name="M:Time.Time.Sub_S(System.UInt32)">
+            <summary>
+            Открытый метод класса Time
+            Уменьшает текущее время на s секунд
+            </summary>
+        </member>
+        <member name="M:Time.Time.op_Equality(Time.Time,Time.Time)">
+            <summary>
+            Открытый оператор класса Time
+            Сравнивает два экземпляра класса Time на равенство
+            </summary>
+        </member>
+        <member name="M:Time.Time.op_Inequality(Time.Time,Time.Time)">
+            <summary>
+            Открытый оператор класса Time
+            Сравнивает два экземпляра класса Time на неравенство
+            </summary>
+        </member>
+        <member name="M:Time.Time.op_GreaterThan(Time.Time,Time.Time)">
+            <summary>
+            Открытый оператор класса Time
+            Вернет true если правый операнд больше левого
+            </summary>
+        </member>
+        <member name="M:Time.Time.op_LessThan(Time.Time,Time.Time)">
+            <summary>
+            Открытый оператор класса Time
+            Вернет true если правый операнд меньше левого
+            </summary>
+        </member>
+        <member name="M:Time.Time.op_LessThanOrEqual(Time.Time,Time.Time)">
+            <summary>
+            Открытый оператор класса Time
+            Вернет true если правый операнд меньше либо равен левому
+            </summary>
+        </member>
+        <member name="M:Time.Time.op_GreaterThanOrEqual(Time.Time,Time.Time)">
+            <summary>
+            Открытый оператор класса Time
+            Вернет true если правый операнд больше либо равен левому
+            </summary>
+        </member>
+        <member name="P:Time.Time.Now">
+            <summary>
+            Возврат текущего времени. 
+            </summary>
+        </member>
+    </members>
+</doc>

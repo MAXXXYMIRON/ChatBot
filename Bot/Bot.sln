@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot", "Bot\Bot.csproj", "{A8BC057D-E2C7-4464-BC17-A64362AEB651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.tests", "Bot.tests\Bot.tests.csproj", "{1EDC809A-EA32-4A27-80A9-9C59CBDE565B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8BC057D-E2C7-4464-BC17-A64362AEB651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BC057D-E2C7-4464-BC17-A64362AEB651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BC057D-E2C7-4464-BC17-A64362AEB651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BC057D-E2C7-4464-BC17-A64362AEB651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDC809A-EA32-4A27-80A9-9C59CBDE565B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDC809A-EA32-4A27-80A9-9C59CBDE565B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDC809A-EA32-4A27-80A9-9C59CBDE565B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDC809A-EA32-4A27-80A9-9C59CBDE565B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AF45A9E-352F-4201-B905-2E13222ED175}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\bin\Release\Bot.dll
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\bin\Release\Bot.pdb
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\bin\Release\Time.dll
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\bin\Release\Time.xml
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\obj\Release\Bot.csprojAssemblyReference.cache
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\obj\Release\Bot.csproj.CoreCompileInputs.cache
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\obj\Release\Bot.csproj.CopyComplete
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\obj\Release\Bot.dll
+C:\Users\Nikolaj\Desktop\.ПАРЫ\ООП\ГОТОВО\Bot\Bot\Bot\obj\Release\Bot.pdb
